@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <style>
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .icon {
+            margin-right: 5px;
+        }
+
+        .btn-primary:hover {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+        <hr>
+        <p><i class="fas fa-phone-alt icon"></i><a href="tel:09675520747" style="text-decoration: none;">09675520747</a>
+        </p>
+        <p><i class="fas fa-envelope icon"></i><a href="mailto:jorelb.licuanan@gmail.com"
+                style="text-decoration: none;">jorelb.licuanan@gmail.com</a></p>
+        <p><i class="fas fa-map-marker-alt icon"></i><a href="https://goo.gl/maps/e5NV367s4ibPSsdX8"
+                style="text-decoration: none;">Purok 4, Samonte, Quezon, Isabela</a></p>
+        <hr>
+        <form method="post" action="submit-form.php">
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
+                    name="floatingInput">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                    style="height: 100px" name="floatingTextarea2"></textarea>
+                <label for="floatingTextarea2">Message</label>
+            </div>
+            <hr>
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="submit">Send</button>
+            </div>
+            <hr>
+            <div class="text-center">
+                <a href="index.html" class="btn btn-primary">
+                    <i class="bi bi-house"></i> Back
+                </a>
+                <a href="hobby.html" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Hobby</a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
